@@ -1,0 +1,231 @@
+:root {
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+  background-image: url(/Assets/img/—Pngtree—illustration\ of\ kolak\ pisang\ indonesian_15347016.png);
+  background-size: cover; /* Membuat gambar mengisi seluruh elemen dengan mempertahankan rasio aspek */
+    background-position: center; /* Menempatkan gambar di tengah elemen */
+    background-repeat: no-repeat;
+    margin:0;
+    height:100vh;
+  
+}
+.navbar {
+  position: fixed; /* Navbar tetap di posisi atas halaman */
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 100%); /* Gradien putih */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sedikit bayangan untuk efek kedalaman */
+            z-index: 1000; /* Memastikan navbar di atas elemen lain */
+            display: flex;
+            justify-content: space-between; /* Menyebar elemen navbar ke kiri dan kanan */
+            align-items: center;
+            text-align: bold;
+            color: #060606;
+}
+.navbar-nav a{
+  right: 0; 
+  top: 0;
+  color: #060606;
+ text-align:bold;
+ font-size: 20px;
+ justify-content: flex-end;
+ margin-right: 20px;
+ margin-left: 40px;
+ margin-right: 20px;
+ margin-top: 0; 
+ margin-bottom: 0;
+ font-weight: bold;
+ 
+ 
+}
+.sign-up a{
+  color: #fff;
+  background-color: black;
+  padding: 7px 15px;
+  text-align: bold;
+  right: 20px;
+  justify-content: flex-end;
+  border-radius: 12px; 
+  font-size: 20px;
+  background-size: 40px;
+  margin-right: 20px;
+  
+}
+.navbar .navbar-main {
+color: #000000;
+font-size: 27px;
+}
+.hero {
+  text-align: center;
+  right:20px;
+  margin-left: 36%;
+font-size: 37px;
+color: #ffffff;
+box-shadow: #060606;
+min-height: 100vh;
+display: flex;
+align-items: center;
+-webkit-mask-image: linear-gradient(rgb(246, 246, 246) 85%, rgba(253, 253, 253, 0));
+mask-image: linear-gradient(rgb(255, 253, 253) 85%, rgba(255, 251, 251, 0));
+}
+.makanan{
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.8) 100%); /* Gradien putih */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sedikit bayangan untuk efek kedalaman */
+            z-index: 1000; /* Memastikan navbar di atas elemen lain */
+            display: flex;
+            justify-content: space-between; /* Menyebar elemen navbar ke kiri dan kanan */
+            align-items: center;
+            text-align: bold;
+            color: #060606;
+}
+.mknn {
+  background-color: #1A4D2E;
+  background-size: cover; /* Membuat gambar mengisi seluruh elemen dengan mempertahankan rasio aspek */
+    background-position: center; /* Menempatkan gambar di tengah elemen */
+    background-repeat: no-repeat;
+    margin:0;
+    height:100vh;
+}
+.mknn h1{
+    min-height: 100vh;
+    margin-top: -8rem;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    margin-left: 35rem;
+    font-size: 35px;
+    font-family: "Work Sans", sans-serif;
+            
+}
+.mknn h2{
+  margin-top: -40rem;
+  padding-top:2rem;
+  padding-bottom:10rem;
+  margin-left: 10rem;
+  margin-right:10rem;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+          
+}
+.mknn .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1rem;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mknn .row .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.mknn .row .menu-card-img-1{
+  
+  width: 80%;
+  height: 120%;
+  margin-top: -6rem;
+  
+}
+.mknn .row .menu-card-img-2{
+  
+  width: 80%;
+  height: 120%;
+  margin-top:-3rem;
+
+  
+}
+
+
+.mknn .row .menu-card .menu-card-title {
+  margin: 1rem auto 0.5rem;
+}
+.klnr {
+  background-color: #5a7c5d;
+  background-size: cover; /* Membuat gambar mengisi seluruh elemen dengan mempertahankan rasio aspek */
+    background-position: center; /* Menempatkan gambar di tengah elemen */
+    background-repeat: no-repeat;
+    margin:0;
+    height:100vh;
+}
+.klnr h1{
+    min-height: 100vh;
+    margin-top: -3rem;
+    padding-top:7rem;
+    padding-bottom:5rem;
+    margin-left: 38rem;
+    font-size: 38px;
+    font-family: "Work Sans", sans-serif;
+            
+}
+.klnr h2{
+  margin-top: -38rem;
+  padding-top:2rem;
+  padding-bottom:10rem;
+  margin-left: 10rem;
+  margin-right:10rem;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: #fff;
+  text-align: center;
+          
+}
+.klnr .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1rem;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.klnr .row .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.klnr .row .menu-card-img-1{
+  
+  width: 80%;
+  height: 120%;
+  margin-top: -2rem;
+  
+}
+.klnr .row .menu-card-img-2{
+  
+  width: 80%;
+  height: 120%;
+  margin-top:-1rem;
+
+  
+}
+
+
+.klnr .row .menu-card .menu-card-title {
+  margin: 1rem auto 0.5rem;
+}
+
