@@ -1,3 +1,7 @@
+:root {
+  
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +87,7 @@ display: flex;
 align-items: center;
 -webkit-mask-image: linear-gradient(rgb(246, 246, 246) 85%, rgba(253, 253, 253, 0));
 mask-image: linear-gradient(rgb(255, 253, 253) 85%, rgba(255, 251, 251, 0));
+text-align: center;
 }
 .makanan{
             top: 0;
@@ -111,9 +116,10 @@ mask-image: linear-gradient(rgb(255, 253, 253) 85%, rgba(255, 251, 251, 0));
     margin-top: -8rem;
     padding-top:5rem;
     padding-bottom:5rem;
-    margin-left: 35rem;
+    
     font-size: 35px;
     font-family: "Work Sans", sans-serif;
+    text-align: center;
             
 }
 .mknn h2{
@@ -174,9 +180,10 @@ mask-image: linear-gradient(rgb(255, 253, 253) 85%, rgba(255, 251, 251, 0));
     margin-top: -3rem;
     padding-top:7rem;
     padding-bottom:5rem;
-    margin-left: 38rem;
+    
     font-size: 38px;
     font-family: "Work Sans", sans-serif;
+    text-align: center;
             
 }
 .klnr h2{
@@ -208,14 +215,14 @@ mask-image: linear-gradient(rgb(255, 253, 253) 85%, rgba(255, 251, 251, 0));
   
   width: 80%;
   height: 120%;
-  margin-top: -2rem;
+  margin-top: -5rem;
   
 }
 .klnr .row .menu-card-img-2{
   
   width: 80%;
   height: 120%;
-  margin-top:-1rem;
+  margin-top:-3rem;
 
   
 }
@@ -224,4 +231,67 @@ mask-image: linear-gradient(rgb(255, 253, 253) 85%, rgba(255, 251, 251, 0));
 .klnr .row .menu-card .menu-card-title {
   margin: 1rem auto 0.5rem;
 }
+.abt{
+  background-color: #B99470;
+  background-size: cover;
+    background-position: center; /* Menempatkan gambar di tengah elemen */
+    background-repeat: no-repeat;
+    margin:0;
+    height:120vh;
+    background-size: cover;
+    background-size: auto;
+    
+}
+.abt h1{
+  min-height: 100vh;
+  margin-top: -3rem;
+  padding-top:7rem;
+  padding-bottom:5rem;
+  
+  font-size: 38px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+          
+}
+.abt h2{
+margin-top: -38rem;
+padding-top:2rem;
+padding-bottom:10rem;
+margin-left: 10rem;
+margin-right:10rem;
+font-size: 14px;
+font-family: "Work Sans", sans-serif;
+color: #ffffff;
+text-align: center;
+        
+}
+.abt h3,h4{
+  color: #000000;
+}
+.abt .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+  margin-top: -6rem;
+}
 
+.abt .abt-card {
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 1.5rem;
+  background-color: #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.abt h5{
+  padding-top:2rem;
+  padding-bottom:10rem;
+  margin-left: 10rem;
+  margin-right:10rem;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+  text-align: center;
+          
+  }
+  
