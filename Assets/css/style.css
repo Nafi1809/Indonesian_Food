@@ -19,7 +19,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg);
   color: #fff;
-  background-image: url(/Assets/img/—Pngtree—illustration\ of\ kolak\ pisang\ indonesian_15347016.png);
+  background-image: url(/Assets/img/background.png);
   background-size: cover; /* Membuat gambar mengisi seluruh elemen dengan mempertahankan rasio aspek */
     background-position: center; /* Menempatkan gambar di tengah elemen */
     background-repeat: no-repeat;
@@ -294,4 +294,84 @@ text-align: center;
   text-align: center;
           
   }
-  
+  .mknn .row .menu-card img:hover{
+  transform: scale(1.1);
+  }
+  .klnr .row .menu-card img:hover{
+    transform: scale(1.1);
+    }
+  .mknn .row .popup-image{
+    position: fixed;
+    top:0; left:0;
+    background: #000000;
+    height: 100%;
+    width: 100%;
+    z-index: inherit;
+  }
+  .mknn .row .popup-image span{
+    margin-top: 10%;
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+
+  }
+  .mknn .row .popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border:5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+
+  }
+  @media (max-width:768px){
+    .mknn .popup-image img{
+      width:95%
+    }
+  }
+  .popup-image {
+    display: none; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; 
+    overflow: hidden; 
+}
+
+
+.popup-image img {
+    max-width: 70%;
+    max-height: 50%;
+    object-fit: contain; 
+}
+
+
+.popup-image .close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    user-select: none; 
+}
+.popup-image .span{
+  position: absolute;
+  margin-top: 10%;
+  top: 10px;
+  right: 20px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  user-select: none; 
+}

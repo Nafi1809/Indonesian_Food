@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indonesian Kuliner Login</title>
-    <link rel="stylesheet" href="Asset/css/login.css">
+    <link rel="stylesheet" href="/Assets/css/login.css">
 </head>
 <body>
     <div class="container">
         <div class="login-box">
+            <form id="loginForm">
             <h1>Welcome to Indonesian Kuliner</h1>
             <p>Enter your Username and Password</p>
-            <form action="#">
+            
                 <div class="input-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" required>
@@ -21,11 +22,13 @@
                     <input type="password" id="password" name="password" required>
                 </div>
                 <button type="submit">Login</button>
+                <button type="submit">Guest</button>
             </form>
         </div>
         <div class="image-box">
-            <img src="your-image-path.jpg" alt="Indonesian Food">
+            <img src="Assets/img/—Pngtree—illustration of kolak pisang indonesian_15347016.png" alt="Indonesian Food">
         </div>
     </div>
+    <script src="Assets/js/login.js"></script>
 </body>
 </html>
