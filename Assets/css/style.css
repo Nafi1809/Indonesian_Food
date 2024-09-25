@@ -280,7 +280,15 @@ text-align: center;
   margin-top: -6rem;
 }
 
-.abt .abt-card {
+.abt .abt-card-1 {
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 1.5rem;
+  background-color: #fff;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.abt .abt-card-2 {
   text-align: center;
   border: 1px solid #000000;
   padding: 1.5rem;
@@ -388,6 +396,7 @@ text-align: center;
     flex-direction: column;
     text-align: center;
     color: #000000;
+  
   }
 }
 
@@ -453,18 +462,28 @@ text-align: center;
     width: 100%; /* Menu-card memenuhi lebar layar */
     margin-bottom: 20px;
   }
+  
 
   .abt .row .abt-card-img-2 {
     width: 100%;
     height: auto; /* Gambar menyesuaikan lebar penuh */
     justify-content: space-between;
-    margin-left: 50%;
+    
   }
   .abt .row .abt-card-img-1 {
     width: 100%;
     height: auto; /* Gambar menyesuaikan lebar penuh */
     
   }
+  .abt .row .abt-card-2{
+    margin-left: 56%;
+    width: 100%;
+    height: auto;
+  }
+  .abt h5{
+    text-align: center;
+  }
+  
 }
 
 /* Untuk layar tablet (max-width: 900px) */
