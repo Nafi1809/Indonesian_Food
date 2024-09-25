@@ -19,7 +19,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg);
   color: #fff;
-  background-image: url(/Assets/img/background.png);
+  background-image: url(/Assets/img/—Pngtree—illustration\ of\ kolak\ pisang\ indonesian_15347016.png);
   background-size: cover; /* Membuat gambar mengisi seluruh elemen dengan mempertahankan rasio aspek */
     background-position: center; /* Menempatkan gambar di tengah elemen */
     background-repeat: no-repeat;
@@ -59,8 +59,8 @@ body {
  
 }
 .sign-up a{
-  color: #fff;
-  background-color: black;
+  color: #000000;
+  
   padding: 7px 15px;
   text-align: bold;
   right: 20px;
@@ -68,8 +68,13 @@ body {
   border-radius: 12px; 
   font-size: 20px;
   background-size: 40px;
-  margin-right: 20px;
+  margin-right: 22px;
   
+  
+}
+.sign-up{
+  justify-content: space-between;
+
 }
 .navbar .navbar-main {
 color: #000000;
@@ -329,11 +334,7 @@ text-align: center;
     object-fit: cover;
 
   }
-  @media (max-width:768px){
-    .mknn .popup-image img{
-      width:95%
-    }
-  }
+
   .popup-image {
     display: none; 
     position: fixed;
@@ -350,11 +351,10 @@ text-align: center;
 
 
 .popup-image img {
-    max-width: 70%;
-    max-height: 50%;
+    max-width: 90%;
+    max-height: 70%;
     object-fit: contain; 
 }
-
 
 .popup-image .close {
     position: absolute;
@@ -375,3 +375,163 @@ text-align: center;
   cursor: pointer;
   user-select: none; 
 }
+/* Untuk layar kecil seperti handphone (max-width: 600px) */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    padding-top: auto;
+  }
+
+  .sign-up {
+    padding-top: auto;
+    flex-direction: column;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav a {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+
+  .sign-up a {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .hero {
+    margin-left: 0; /* Pusatkan teks hero */
+    font-size: 28px; /* Kurangi ukuran font di bagian hero */
+    padding: 20px;
+  }
+
+  .mknn, .klnr, .abt {
+    height: auto; /* Biarkan konten menyesuaikan ketinggian berdasarkan konten */
+    padding: 10px;
+  }
+
+  .mknn h1, .klnr h1, .abt h1 {
+    font-size: 24px; /* Ukuran judul lebih kecil */
+  }
+
+  .mknn h2, .klnr h2, .abt h2 {
+    font-size: 12px; /* Ukuran teks lebih kecil */
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .mknn .row, .klnr .row {
+    flex-direction: column; /* Ubah tata letak menu menjadi vertikal */
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mknn .row .menu-card, .klnr .row .menu-card {
+    width: 100%; /* Menu-card memenuhi lebar layar */
+    margin-bottom: 20px;
+  }
+
+  .mknn .row .menu-card-img-1, .klnr .row .menu-card-img-1 {
+    width: 100%;
+    height: auto; /* Gambar menyesuaikan lebar penuh */
+  }
+  .abt .row .abt-card{
+    width: 100%; /* Menu-card memenuhi lebar layar */
+    margin-bottom: 20px;
+  }
+
+  .abt .row .abt-card-img-2 {
+    width: 100%;
+    height: auto; /* Gambar menyesuaikan lebar penuh */
+    justify-content: space-between;
+    margin-left: 50%;
+  }
+  .abt .row .abt-card-img-1 {
+    width: 100%;
+    height: auto; /* Gambar menyesuaikan lebar penuh */
+    
+  }
+}
+
+/* Untuk layar tablet (max-width: 900px) */
+.navbar {
+  flex-direction: column;
+  text-align: center;
+  padding-top: auto;
+}
+
+.sign-up {
+  padding-top: auto;
+  flex-direction: column;
+  text-align: center;
+  color: #000000;
+}
+
+
+@media screen and (max-width: 768px) {
+.navbar {
+  flex-direction: column;
+  text-align: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-nav a {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.sign-up a {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+  .hero {
+    font-size: 30px; /* Sedikit lebih besar dari handphone */
+    margin-left: 10%; /* Menggeser teks lebih ke tengah */
+  }
+
+  .mknn, .klnr, .abt {
+    height: auto; /* Sesuaikan tinggi */
+    padding: 20px;
+  }
+
+  .mknn h1, .klnr h1, .abt h1 {
+    font-size: 30px; /* Ukuran teks lebih kecil */
+  }
+
+  .mknn h2, .klnr h2, .abt h2 {
+    font-size: 14px; /* Sedikit lebih kecil dari versi desktop */
+  }
+
+  .mknn .row, .klnr .row {
+    flex-direction: column; /* Tata letak menu vertikal */
+  }
+
+  .mknn .row .menu-card, .klnr .row .menu-card {
+    width: 100%;
+  }
+
+  .mknn .row .menu-card-img-1, .klnr .row .menu-card-img-1 {
+    width: 90%; /* Gambar masih besar, tapi menyesuaikan layar */
+  }
+}
+
